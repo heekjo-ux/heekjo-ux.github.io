@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hee Kyung Jo</title>
+  <style>
+    :root {
+      --text: #0f172a;
+      --muted: #475569;
+      --line: #e2e8f0;
+      --bg: #ffffff;
+      --card: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 36px;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    p, li { color: var(--muted); }
+    .intro {
+      max-width: 760px;
+      font-size: 1.05rem;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .meta span, .meta a {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 36px;
+    }
+    .section { margin-bottom: 32px; }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+      padding: 20px;
+      margin-bottom: 18px;
+    }
+    .role {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .period {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+    ul {
+      margin: 12px 0 0 18px;
+      padding: 0;
+    }
+    .small-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .small-list li { margin-bottom: 10px; }
+    .pub {
+      border-top: 1px solid var(--line);
+      padding-top: 28px;
+      margin-top: 12px;
+    }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 2rem; }
+      .container { padding: 28px 18px 48px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hee Kyung Jo, RN</h1>
+      <p class="intro">
+        My research interests focus on self-management among older adults with chronic conditions.
+        In particular, I am interested in how digital health adoption can support self-management and
+        ultimately promote aging in place and independent living.
+      </p>
+      <div class="meta">
+        <span>Daegu, South Korea</span>
+        <a href="mailto:heeeki@knu.ac.kr">heeeki@knu.ac.kr</a>
+        <span>+82-10-5141-5544</span>
+      </div>
+    </header>
+
+    <div class="grid">
+      <aside>
+        <section class="section">
+          <h2>Research Interests</h2>
+          <ul class="small-list">
+            <li>Self-management among older adults with chronic conditions</li>
+            <li>Digital health adoption and use</li>
+            <li>Aging in place and independent living</li>
+            <li>Theory-based intervention development and evaluation</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <p><strong>M.S. in Nursing</strong><br>Kyungpook National University<br>2023–2026 (expected)</p>
+          <p><strong>B.S. in Nursing</strong><br>Kyungpook National University<br>2019–2023</p>
+        </section>
+
+        <section class="section">
+          <h2>Licensure</h2>
+          <p>Registered Nurse, South Korea (2023)</p>
+          <p>Registered Nurse, State of New York, USA (2024)</p>
+        </section>
+
+        <section class="section">
+          <h2>Clinical Background</h2>
+          <p>
+            Registered Nurse with experience in an integrated internal medicine ward serving patients in
+            gastroenterology, nephrology, and hematology-oncology.
+          </p>
+        </section>
+      </aside>
+
+      <main>
+        <section class="section">
+          <h2>Research Experience</h2>
+
+          <article class="card">
+            <div class="role">Master’s Thesis Researcher</div>
+            <h3>STAM-Based Intervention to Promote PHR App Use Among Non-User Older Adults With Chronic Diseases</h3>
+            <div class="period">2025–Present</div>
+            <ul>
+              <li>Developing and evaluating a STAM-based intervention to promote national PHR application use among non-user older adults with chronic diseases.</li>
+              <li>Designed a randomized controlled trial evaluating gerontechnology anxiety, health, control belief, attitudinal belief, and task performance.</li>
+              <li>Built research expertise in digital health adoption, self-management among older adults with chronic conditions, and theory-based intervention development.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="role">Research Assistant</div>
+            <h3>Development and Evaluation of a Mobile PRO Platform for Older Adults</h3>
+            <div class="period">Mar 2023 – Aug 2023</div>
+            <ul>
+              <li>Participated in the development and evaluation of a mobile PRO platform for older adults’ health management.</li>
+              <li>Identified app-based health measurement tools, obtained permissions, and worked with app developers on implementation of measurement and educational content.</li>
+              <li>Assisted with community-based participant education, including study explanation, app installation, and intervention support.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="role">Research Assistant</div>
+            <h3>Sleep Research Project on Subjective and Objective Sleep in Rotating Night-Shift Nurses</h3>
+            <div class="period">Mar 2023 – Aug 2023</div>
+            <ul>
+              <li>Worked on a secondary analysis of rotating night-shift nurses’ sleep data using sleep diaries, wearable-device data, and insomnia measures.</li>
+              <li>Explored discrepancies between subjective and objective sleep indicators and assisted with data cleaning and data management.</li>
+              <li>Developed an interest in integrating objective and subjective measures in sleep research.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="role">Undergraduate Research Team Member / Corresponding Author</div>
+            <h3>Research Project on Marriage Values of Female University Students</h3>
+            <div class="period">Sep 2021 – Feb 2022</div>
+            <ul>
+              <li>Participated in a descriptive study examining factors associated with marriage values among female university students.</li>
+              <li>Served as the corresponding author and student team leader, taking primary responsibility for communication, coordination, and manuscript-related tasks during submission and publication.</li>
+              <li>Developed early experience in academic writing, journal communication, and the publication process.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="pub">
+          <h2>Selected Publication</h2>
+          <p>
+            Lee, S. H., Shin, J. W., Yang, J. W., Lee, D. Y., Jun, Y. W., Jeong, H. R., &amp; Jo, H. K. (2022).
+            <em>The effects of interparental conflict, consciousness of gender equality, and career aspirations on marriage values of female university students.</em>
+            Journal of Kyungpook Nursing Science, 26(1), 49–58.
+          </p>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
